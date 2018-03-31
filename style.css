@@ -1,3 +1,8 @@
+body {
+  font-family: arial,sans-serif;
+  overflow: hidden;
+}
+
 #nav {
   float:left;
   top: 0;
@@ -6,7 +11,6 @@
 
 #nav li {
   font-size: 13px;
-  font-family: helvetica;
   float: right;
   display: block;
   padding: 8px;
@@ -19,7 +23,6 @@ button {
   width: 140px;
   background-color: #f2f2f2;
   border: none;
-  font-family: arial.sans-serif;
   font-weight: bold;
   color: #757575;
 }
@@ -31,6 +34,11 @@ button {
 img {
   display: block;
   margin: auto;
+  padding-top: 125px;
+}
+
+.search {
+  padding-top: 20px;
 }
 
 input {
@@ -39,4 +47,41 @@ input {
   width: 550px;
   padding: 12px;
   outline: none;
+}
+
+#bottom {
+  background-color: #f2f2f2;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  height: 40px;
+  margin: 0;
+  padding-left: 27px;
+  font-size: small;
+  position: absolute;
+  bottom: 0;
+  line-height: 40px;
+  color: rgba(0,0,0,.54);
+}
+
+#bottom li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.right {
+  float: right;
+  margin-right: 40px;
+}
+
+#country {
+  background-color: #f2f2f2;
+  height: 55px;
+  width: 100%;
+  margin: 0;
+  padding-left: 27px;
+  font-size: small;
+  position: absolute;
+  bottom: 3%;
+  line-height: 40px;
+  color: rgba(0,0,0,.54);
 }
